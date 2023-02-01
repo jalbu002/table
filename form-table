@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>4Geeks Academy</title>
+		<style>
+			table,
+			th,
+			td {
+				border: 1px solid black;
+			}
+
+			p {
+				margin: 0;
+			}
+			.bttn {
+				text-align: center;
+			}
+
+			th {
+				background-color: mediumpurple;
+			}
+		</style>
+	</head>
+
+	<body>
+		<form>
+			<!-- your code here -->
+			<table>
+				<tr>
+					<th>Name</th>
+					<th>Value</th>
+				</tr>
+				<tr>
+					<td>Name</td>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<td>Sex</td>
+					<td>
+						<p><input type="radio" name="gender" /> Male</p>
+						<p><input type="radio" name="gender" /> Female</p>
+					</td>
+				</tr>
+				<tr>
+					<td>Eye Color</td>
+					<td>
+						<select name="eye-color">
+							<option value="green">Green</option>
+							<option value="brown">Brown</option>
+							<option value="blue">Blue</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Check all that apply</td>
+					<td>
+						<p><input type="checkbox" /> Over 6 feet tall</p>
+						<p><input type="checkbox" /> Over 200 pounds</p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<p>Desrcibe your athletic ability:</p>
+						<textarea style="width: 98%"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="bttn"><button>Enter my information</button></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
